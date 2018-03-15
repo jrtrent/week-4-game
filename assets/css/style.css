@@ -1,0 +1,33 @@
+
+body{
+    background-color: turquoise;
+}
+#random { background-color: darkgreen;
+        color: white;
+
+}
+
+#winslosses { background-color: dark blue;
+    color: white;
+}
+
+
+#scoreheader {
+    background-color: aquamarine;
+}
+ 
+#score {
+    background-color: darkcolor;
+}
+
+img{
+    height: 50px;
+    width: 30px
+}
+#crystals{
+    
+}
+
+
+
+

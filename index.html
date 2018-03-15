@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    
+    <title>Crystal Collector</title>
+</head>
+<body>
+    <div class= "container-fluid" id="game">
+        <h1>Crystal Collector</h1>
+        <div class="col-lg-6" id="instructions">
+            <p>Instructions</p>
+            <p>Choose a crystal to start the game</p>
+            <p>Try to match the value of the crystals to the dispayed number.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" id="random">
+                <p>random number</p>
+            </div>
+            <div class="col-sm-8" id="winslosses">
+                <p>Wins: </p>
+                <p>Loses:</p>
+            </div>
+        </div>
+        <div class="row" id="crystals">
+            <div class="col-sm-1">    
+                <button class="crvalue" id="green"><img src="./assets/css/green.jpg" alt="green"/></button>
+            </div>
+            <div class="col-sm-1 ">
+                <button class="crvalue" id="blue"><img src="./assets/css/blue.jpg" alt="blue"/></button>
+            </div>
+            <div class="col-sm-1">
+                <button class="crvalue" id="purple"><img src="./assets/css/purple.jpg" alt="purple"/></button>
+            </div>
+            <div class="col-sm-9">
+                <button  class="crvaule" id="red"><img src="./assets/css/red.jpg" alt="red"/></button>    
+            </div>
+        </div>
+
+        <div class="row">        
+            <div class="col-sm-6" id="scoreheader">
+                 Your  Total Score:
+            </div>
+            <div class"col-sm-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" id="score">
+                
+            </div>
+    
+        </div>
+
+
+    </div>
+    
+    
+    <script src ="assets/javascript/game.js"></script>
+  
+</body>
+ </html>
